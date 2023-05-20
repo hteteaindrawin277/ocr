@@ -7,5 +7,9 @@ urlpatterns = [
     path('login/nextpage', views.nextpage, name='nextpage'),
 
     path('login/seclogin',views.seclogin,name='ccc'),
-    path('login/success',views.comparedata,name='comparedata')
+    path('login/success',views.comparedata,name='comparedata'),
+
+    #path('hw/show',views.show,name='show')
+
 ]
+
